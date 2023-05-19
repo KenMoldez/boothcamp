@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISCP Employee Registration Form</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="ISCP_Logo.png" alt="iscp logo" width="100px" />
+    <iframe
+      width="500"
+      height="300"
+      src="https://www.youtube.com/embed/aCUhfPAyDHY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <h2>Basic Information</h2>
+    <form>
+      <table>
+        <tr>
+          <td>
+            <label for="first_name">First Name: </label>
+          </td>
+
+          <td>
+            <input
+              type="text"
+              id="first_name"
+              name="first_name"
+              placeholder="ex. Ken"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="last_name">Last Name: </label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="last_name"
+              name="last_name"
+              placeholder="ex. Moldez"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="place_birth">Place of birth: </label>
+          </td>
+
+          <td>
+            <input
+              type="text"
+              id="place_birth"
+              name="place_birth"
+              placeholder="ex. Cebu City"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="birt_date">Date of birth: </label>
+          </td>
+
+          <td>
+            <input
+              type="date"
+              id="birt_date"
+              name="birt_date"
+              placeholder="date of birth"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="civil_status">Civil Status: </label>
+          </td>
+
+          <td>
+            <select name="dropdown">
+              <option value="please_select" selected>Please select</option>
+              <option value="single">Single</option>
+              <option value="married">Married</option>
+              <option value="widowed">Widowed</option>
+              <option value="separated">Separated</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="gender">Gender: </label>
+          </td>
+
+          <td>
+            <select name="dropdown">
+              <option value="please select" selected>Please Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="others">Others</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="mother_name">Mother's Maiden Name: </label>
+          </td>
+
+          <td>
+            <input
+              type="text"
+              id="mother_name"
+              name="mother_name"
+              placeholder="Mother's Maiden Name"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="father_name">Father's Name: </label>
+          </td>
+
+          <td>
+            <input
+              type="text"
+              id="father_name"
+              name="father_name"
+              placeholder="Father's Name"
+              required
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <h2>Contact Information</h2>
+    <form>
+      <table>
+        <tr>
+          <td>
+            <label for="email_add">Email Address: </label>
+          </td>
+
+          <td>
+            <input
+              type="email"
+              id="email_add"
+              name="email_add"
+              placeholder="ex. juan@gmail.com"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="contact_num">Contact Number: </label>
+          </td>
+
+          <td>
+            <input
+              type="number"
+              id="contact_num"
+              name="contact_num"
+              placeholder="mobile number"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="tell_num">Contact Number: </label>
+          </td>
+
+          <td>
+            <input
+              type="number"
+              id="tell_num"
+              name="tell_num"
+              placeholder="tellephone number"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <form>
+      <h2>Address</h2>
+      <table>
+        <tr>
+          <td>
+            <label for="street_num">Street Number: </label>
+          </td>
+
+          <td>
+            <input
+              type="number"
+              id="street_num"
+              name="street_num"
+              placeholder="ex. 1234 Main Street"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="street_name">Street Name: </label>
+          </td>
+
+          <td>
+            <input
+              type="text"
+              id="street_name"
+              name="street_name"
+              placeholder="ex. Bonny Serrano Avenue"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="barangay">Barangay: </label>
+          </td>
+
+          <td>
+            <select name="dropdown">
+              <option value="please_select" selected>Please select</option>
+              <option value="dao">Dao</option>
+              <option value="bogo">Bogo</option>
+              <option value="buenavista">Buenavista</option>
+              <option value="banale">Banale</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="city">City/Town: </label>
+          </td>
+
+          <td>
+            <select name="dropdown">
+              <option value="please_select" selected>Please select</option>
+              <option value="margos_sa_tubig">Margos sa tubig</option>
+              <option value="pitogo">Pitogo</option>
+              <option value="dumalinao">Dumalinao</option>
+              <option value="pagadian">Pagadian City</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="province">Province</label>
+          </td>
+
+          <td>
+            <select name="dropdown">
+              <option value="please_select" selected>Please select</option>
+              <option value="zamboanga_del_sur">Zamboanga del Sur</option>
+              <option value="zamboanga_sibugay">Zamboanga Sibugay</option>
+              <option value="zamboanga_norte">Zamboanga Norte</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="full_add">Full Address: </label>
+          </td>
+
+          <td>
+            <input
+              type="text"
+              id="full_add"
+              name="full_name"
+              placeholder="full address"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <form>
+      <h2>Government Information</h2>
+      <table>
+        <tr>
+          <td>
+            <label for="sss_Id">SSS ID: </label>
+          </td>
+
+          <td>
+            <input type="file" name="sss_Id" accept="image/*" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="pag_ibig_Id">Pag-Ibig ID: </label>
+          </td>
+
+          <td>
+            <input type="file" name="pag_ibig_Id" accept="image/*" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="phil_health">PhilHealth ID: </label>
+          </td>
+
+          <td>
+            <input type="file" name="phil_health" accept="image/*" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="self_pic">Upload 2x2 picture: </label>
+          </td>
+
+          <td>
+            <input type="file" name="self_pic" accept="image/*" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="govern_id">Upload picture of government ID: </label>
+          </td>
+
+          <td>
+            <input type="file" name="govern_id" accept="image/*" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <form>
+      <h2>Account Information</h2>
+      <table>
+        <tr>
+          <td>
+            <label for="username">Enter Username: </label>
+          </td>
+
+          <td>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Username"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">Enter Password: </label>
+          </td>
+
+          <td>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="con_pass">Confirm Password: </label>
+          </td>
+
+          <td>
+            <input
+              type="password"
+              name="con_pass"
+              id="con_pass"
+              placeholder="Confirm Password"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="profile_pic">Upload profile image: </label>
+          </td>
+
+          <td>
+            <input type="file" name="profile_pic" accept="image/*" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <form>
+      <table>
+        <h2>Have you experience any of the following in the last 30 days?</h2>
+        <tr>
+          <td>
+            <label for="health">Choose Options: </label>
+          </td>
+
+          <td>
+            <select name="dropdown">
+              <option value="please select" selected>Please select</option>
+              <option value="coughing">Coughing</option>
+              <option value="fever">Fever</option>
+              <option value="headache">Headache</option>
+              <option value="common_cold">Common Cold</option>
+              <option value="body_ache">Body Ache</option>
+              <option value="sore_throat">Sore Throat</option>
+              <option value="tiredness">Tireness</option>
+              <option value="loss_smell">Loss of smell</option>
+              <option value="none_of_above">None of the above</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <form>
+      <h2>Give a short description about yourself.</h2>
+      <tr>
+        <td>
+          <label for="description">Describe yourself: </label>
+        </td>
+
+        <td>
+          <textarea
+            name="description"
+            id="description"
+            cols="30"
+            rows="10"
+            placeholder="Type here..."
+          ></textarea>
+        </td>
+      </tr>
+      <br />
+      <tr>
+        <td>
+          <input type="submit" name="submit" value="submit" />
+        </td>
+      </tr>
+    </form>
+  </body>
+</html>

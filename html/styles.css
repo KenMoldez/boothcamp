@@ -1,0 +1,145 @@
+.navigation {
+  font-family: "Tahoma";
+  background-color: rgb(70, 130, 180);
+}
+
+li:hover {
+  color: rgb(0, 0, 139);
+}
+
+#nav_links {
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+  padding: 12px;
+  color: white;
+}
+
+.content1 {
+  text-align: center;
+}
+
+#ministries {
+  color: rgb(70, 130, 180);
+  font-family: Tahoma;
+}
+
+#paragraph1 {
+  font-weight: bold;
+}
+
+#center :link {
+  color: blue;
+}
+
+#center :visited {
+  color: orange;
+}
+
+#center :active {
+  color: lime;
+}
+
+#center :hover {
+  color: magenta;
+}
+
+.content1 #center {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 20px;
+}
+
+.content1 #free_babineaux {
+  text-align: left;
+}
+
+.content1 #huell_links {
+  font-size: 35px;
+}
+
+.element {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cross1 {
+  max-width: 150px;
+  display: inline-block;
+  margin-right: 150px;
+}
+
+.list table,
+th,
+td {
+  border: 2px dotted black;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.list tr :hover {
+  color: orange;
+}
+
+.list th,
+td {
+  padding: 5px;
+}
+
+td:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.cross2 {
+  max-width: 150px;
+  display: inline-block;
+  margin-left: 150px;
+}
+
+.content2 {
+  text-align: center;
+  color: rgb(160, 160, 160);
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.content2 #ending_content {
+  text-align: center;
+  color: rgb(160, 160, 160);
+  font-size: x-small;
+}
+
+.image_gallery {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
